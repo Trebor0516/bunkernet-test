@@ -175,7 +175,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // WEBSOCKET
     // ===============================
 
-    const socket = new WebSocket("ws://localhost:3000");
+    //const socket = new WebSocket("ws://localhost:3000");
+    const socket = new WebSocket("wss://bunkernet-test.onrender.com");
 
     // ===============================
     // CONECTAR
