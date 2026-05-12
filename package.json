@@ -4,7 +4,7 @@
   "description": "Sistema de chat colaborativo en tiempo real utilizando WebSocket.",
   "main": "index.js",
   "scripts": {
-    "start": "node servidor/server.js"
+    "start": "node server/server.js"
   },
   "keywords": [],
   "author": "",
