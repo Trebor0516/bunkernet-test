@@ -3,10 +3,10 @@ const http = require("http");
 const path = require("path");
 const WebSocket = require("ws");
 
-const {
-    guardarMensaje,
-    obtenerMensajes
-} = //require("./database");
+//const {
+  //  guardarMensaje,
+   // obtenerMensajes
+//} = //require("./database");
 
 // =======================
 // EXPRESS
