@@ -199,13 +199,20 @@ function actualizarUsuarios() {
 // =======================
 // INICIAR SERVIDOR
 // =======================
-
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => {
 
-    console.log(
-        `Servidor iniciado en puerto ${PORT}`
-    );
+    console.log("Servidor funcionando en puerto", PORT);
 
 });
+
+//const PORT = process.env.PORT || 3000;
+
+//server.listen(PORT, () => {
+
+  //  console.log(
+    //    `Servidor iniciado en puerto ${PORT}`
+    //);
+
+//});
